@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  font-size: 30px;
+}
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-page{
+  justify-content: center;
+  background-color: grey;
+  margin-top: 10px;
+  width: 700px;
+  min-height: 800px;
+}
+.text{
+  width: 700px;
+  height: 10%;
+  font-size:30px;
+  padding: 10px;
+}
+.inputText{
+  font-size: 20px;
+}
+.addItem{
+  font-size: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.todoTask{
+  font-size: 30px;
+}
+.deleteItem{
+  font-size: 20px;
+}
